@@ -9,7 +9,7 @@
 	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 	<title>Contact | Same Day Appliance Repair | Jacksonville, St. Augustine FL</title>
 	<meta content="Providing appliance maintenance and repair services in Florida's First Coast including Jacksonville, St. Augustine, Ponte Vedra, Fleming Island, Fernandina Beach, Duval County, Fleming Island, Keystone Heights and all of their surrounding areas." name="description">
-	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+	<meta content="width=device-width, initial-scale=1" name="viewport">
 	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"><!--[if lt IE 9 & !IEMobile]>
 
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -28,7 +28,7 @@
 	<link href="apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
 	<script src="js/vendor/modernizr-2.5.3.min.js">
 	</script>
-	<script src="js/free_validation.js">
+	<script src="js/validation.js">
 	</script>
 </head>
 <body>
@@ -62,6 +62,7 @@
 					</li><li><a alt="contact" href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
+				<span class="header-number right">Jacksonville - (904) 396-9500 | St. Augustine - (904) 829-6565</span>
 			</header><!-- <iframe id="workorder" name="workorder"
 
         scrolling="no" src=
@@ -82,7 +83,7 @@
 				<div class="col_one_half">
 					
 				
-						<form action="free_process.php" id="contactformfree" method="post" name="contactformfree" onsubmit="return validate.check(this)">
+						<form action="f_process.php" id="contactform" method="post" name="contactform" onsubmit="return validate.check(this)">
 							<table width="5em">
 								<tr>
 									<td colspan="2">
@@ -90,24 +91,24 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="Jacksonville_td" valign="top"><label class="required" for="Full_Name">Name</label></td>
-									<td class="Jacksonville_td" valign="top"><input id="Full_Name" maxlength="80" name="Full_Name" style="width:300px" type="text"></td>
+									<td valign="top"><label class="required" for="Full_Name">Name</label></td>
+									<td valign="top"><input id="Full_Name" maxlength="80" name="Full_Name" style="width:300px" type="text"></td>
 								</tr>
 								<tr>
-									<td class="Jacksonville_td" valign="top"><label class="required" for="Email_Address">Email</label></td>
-									<td class="Jacksonville_td" valign="top"><input id="Email_Address" maxlength="100" name="Email_Address" style="width:300px" type="email"></td>
+									<td valign="top"><label class="required" for="Email_Address">Email</label></td>
+									<td valign="top"><input id="Email_Address" maxlength="100" name="Email_Address" style="width:300px" type="email"></td>
 								</tr>
 								<tr>
-									<td class="Jacksonville_td" valign="top"><label class="required" for="Telephone_Number">Phone #</label></td>
-									<td class="Jacksonville_td" valign="top"><input id="Telephone_Number" maxlength="80" name="Telephone_Number" style="width:300px" type="tel"></td>
+									<td valign="top"><label class="required" for="Telephone_Number">Phone #</label></td>
+									<td valign="top"><input id="Telephone_Number" maxlength="80" name="Telephone_Number" style="width:300px" type="tel"></td>
 								</tr>
 								<tr>
-									<td class="Jacksonville_td" valign="top"><label class="required" for="Your_Message">Message</label></td>
-									<td class="Jacksonville_td" valign="top">
+									<td valign="top"><label class="required" for="Your_Message">Message</label></td>
+									<td valign="top">
 									<textarea id="Your_Message" maxlength="1000" name="Your_Message" style="width:300px;height:120px"></textarea></td>
 								</tr>
 								<tr>
-									<td class="Jacksonville_td" colspan="2" style="text-align:center"><input type="submit" class="right" value="Submit">
+									<td><input type="submit" class="right" value="Submit">
 									</td>
 								</tr>
 							</table>
@@ -173,8 +174,5 @@
 				    s.parentNode.insertBefore(g,s)}(document,'script'));
 
 				</script> 
-			</div>
-		</div>
-	</div>
 </body>
 </html>

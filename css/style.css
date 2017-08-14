@@ -282,7 +282,7 @@ img.centered {
 
 /* BUTTONS 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/**/
+
 button, input[type="button"], input[type="reset"], input[type="submit"] {
     background: #00568c;
     background: -webkit-linear-gradient(#00568c, #004a78);
@@ -320,7 +320,6 @@ line-height:2;
 button a:hover {
 color:#fff;
 }
-
 /* CALLS TO ACTION and FRONT PAGE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button.cta_fp {
@@ -359,6 +358,7 @@ button.cta:hover, {
 .fp {
     margin-top:2rem;
 }
+
 /* FORMS 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -443,10 +443,10 @@ nav li a:hover {
     height: 100px
 }
 .header-number {
-    font-size: 1.8em;
+    font-size: 1.6em;
     letter-spacing: -0.05em;
     line-height: 1;
-    color: #3674b1;
+    color: #368eb1;
 }
 
 /* TITLE 
