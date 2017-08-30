@@ -11,9 +11,7 @@
 	<meta content="Providing appliance maintenance and repair services in Florida's First Coast including Jacksonville, St. Augustine, Ponte Vedra, Fleming Island, Fernandina Beach, Duval County, Fleming Island, Keystone Heights and all of their surrounding areas." name="description">
 	<meta content="width=device-width, initial-scale=1" name="viewport"><!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"><!--[if lt IE 9 & !IEMobile]>
-
 <link href="css/style.css" rel="stylesheet" type="text/css">
-
 <![endif]-->
 	<meta content="Same Day Appliance Repair | Jacksonville, St. Augustine FL" name="application-name">
 	<meta content="Providing appliance maintenance and repair services in Florida's First Coast including Jacksonville, St. Augustine, Ponte Vedra, Fleming Island, Fernandina Beach, Duval County, Fleming Island, Keystone Heights and all of their surrounding areas." name="msapplication-tooltip">
@@ -63,8 +61,10 @@
 					</ul>
 				</nav>
 
-				<button class="cta_fp"><a alt="contact" href="contact.html">Request Estimate</a></button>
-				<button class="cta_fp"><a alt="services" href="services.html">View Services</a></button>
+				<div class="hide-for-small-only">
+				<a alt="contact" href="contact.html" class="button cta_fp">Request Estimate</a>
+				<a alt="services" href="services.html" class="button cta_fp">View Services</a>
+				</div>
 			</header>
 
 
@@ -92,12 +92,16 @@
 				</div>
 		
 			</section>
+				<div class="show-for-small-only">
+				<a alt="contact" href="contact.html" class="button cta_fp">Request Estimate</a>
+				<a alt="services" href="services.html" class="button cta_fp">View Services</a>
+				</div>
 			<img src="img/brands.png" class="centered" title="">
 			<footer>
-
+			<div class="hide-for-small-only">
 				<div class="footer-left-padding">
-					<div class="col_one_half"><h2>Jacksonville - <strong>(904) 396-9500</strong></h2></div>
-					<div class="col_one_half"><h2>St. Augustine - <strong>(904) 829-6565</strong></h2></div>
+					<div class="col_one_half"><h2>Jacksonville - <strong><a href="tel://1-904-396-9500">(904) 396-9500</a></strong></h2></div>
+					<div class="col_one_half"><h2>St. Augustine - <strong><a href="tel://1-904-829-6565">(904) 829-6565</a></strong></h2></div>
 				</div>
 				<img class="right" alt="We accept all major credit cards" src="img/cards.png">
 				<hr>
@@ -132,9 +136,41 @@
 						</script>
 					</li>
 				</ul>
-
+			</div>
+		</div>
+		<div class="show-for-small-only text-center">
+		<h2>Jacksonville - <strong><a href="tel://1-904-396-9500">(904) 396-9500</a></strong></h2>
+					<h2>St. Augustine - <strong><a href="tel://1-904-829-6565">(904) 829-6565</a></strong></h2>
+					<hr>
+				<ul>
+					<li>
+						<a alt="main" href="index.html">Main</a>
+					</li>
+					<li>
+						<a alt="services" href="services.html">Services</a>
+					</li>
+					<li>
+						<a alt="tips" href="tips.html">Tips</a>
+					</li>
+					<li>
+						<a alt="testimonial" href="testimonial.html">Testimonials</a>
+					</li>
+					<li>
+						<a alt="contact" href="contact.html">Contact</a>
+					</li>
+					<!-- <li>
+						<a href="http://www.facebook.com/pages/a-same-day-appliance-service-llc/368057089904663"><img alt="Same Day Appliance Repair on Facebook" src="img/sm_fb.png"></a>
+					</li> -->
+					<li><a class="twitter-follow-button" data-show-count="false" href="https://twitter.com/samedayjax">Follow @samedayjax</a> 
+						<script>
+						!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+						</script>
+					</li>
+				</ul>
+				<hr>
+				&copy;1999-2017 Same Day Appliance Repair |
+					<a href="http://www.dustinaguilar.com"><img src="img/watermark.png" title="Dustin Aguilar Web Development"></a>
 				</div>
-				
 			</footer>
 		</main>
 		<script>
